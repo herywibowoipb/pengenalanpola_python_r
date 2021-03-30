@@ -77,7 +77,6 @@ for(i in 1:8){
   trainData2 <-  dataset[-testIndexes,]
 }
 
-
 #bayes
  library(e1071)
  data(iris)
