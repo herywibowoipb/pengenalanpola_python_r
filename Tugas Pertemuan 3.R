@@ -84,7 +84,7 @@ for(i in 1:8){
  head(iris)
  datalatih<-iris[c(1:40, 51:90, 101:140),]
  datauji<-iris[-c(1:40, 51:90, 101:140),]
- # Membuat model Naïve Bayes menggunakan datalatih
+ # Membuat model NaÃ¯ve Bayes menggunakan datalatih
  model.nB <- naiveBayes(Species ~ ., datalatih)
  # Prediksi datauji / data baru
  predict(model.nB, datauji[,-5])
